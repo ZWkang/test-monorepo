@@ -1,7 +1,7 @@
 {
   "private": true,
   "packageManager": "pnpm@7.9.0",
-  "description": "> description:",
+  "description": "> description: test monorepo",
   "publishConfig": {
     "access": "public"
   },
@@ -47,11 +47,11 @@
     "changeset": "changeset",
     "build": "pnpm --filter @zwkang-dev/* run build",
     "release:version": "changeset version",
-    "release": "pnpm build && changeset publish",
+    "release": "changeset publish",
     "update-deps": "pnpm update -i -r --latest",
     "preinstall": "only-allow pnpm",
     "setup": "pnpm install",
-    "publish": "pnpm publish -r"
+    "release:publish": "pnpm build && pnpm run publish -r"
   },
   "license": "MIT"
 }
