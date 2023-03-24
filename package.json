@@ -47,7 +47,7 @@
     "changeset": "changeset",
     "build": "pnpm --filter @zwkang-dev/* run build",
     "release:version": "changeset version",
-    "release": "changeset publish",
+    "release": "changeset publish --no-publish",
     "update-deps": "pnpm update -i -r --latest",
     "preinstall": "only-allow pnpm",
     "setup": "pnpm install",
