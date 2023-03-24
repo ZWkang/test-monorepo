@@ -1,5 +1,11 @@
 # @zwkang-dev/test-monorepo-shared
 
+## 0.0.3
+
+### Patch Changes
+
+- chore: update pcackage.json
+
 ## 0.0.2
 
 ### Patch Changes
